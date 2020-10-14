@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fellowship | IncubateIND </title>
+    <meta name="author" content="IncubateIND">
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Rubik:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/img/favicon.png">
+
+
+
+</head>
+
+<body>
+
+    <!-- START: header -->
+
+    <!-- <div class="probootstrap-loader"></div> -->
+    <!-- <a href="#" class="menu-bg probootstrap-burger-menu"></a>
+    <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a> -->
+    <header role="banner" class="probootstrap-header fixed-top">
+        <div class="container-fluid">
+            <a href="/fellows" class="probootstrap-logo"><img src="/img/Fellowship_Logo.png"
+                    style="width:400px;"></a>
+
+
+            <div class="mobile-menu-overlay"></div>
+
+            <nav role="navigation" class="probootstrap-nav hidden-xs">
+                <ul class="probootstrap-main-nav">
+                    <li class="active"><a href="https://incubateind.com">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#mentor">Mentors</a></li> -->
+                    <li><a href="#contactus">Contact</a></li>
+                </ul>
+                <div class="extra-text visible-xs">
+                    <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+
+                    <h5>Connect</h5>
+                    <ul class="social-buttons">
+                        <li><a href="https://twitter.com/incubateind" target="_blank"><i class="icon-twitter"></i></a>
+                        </li>
+                        <li><a href="http://facebook.com/IncubateIND/" target="_blank"><i class="icon-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/channel/UCcgyWC65tim3f3SMSZaMQ2w" target="_blank"><i
+                                    class="icon-youtube"></i></a></li>
+                        <li><a href="https://www.instagram.com/incubateindia/" target="_blank"><i
+                                    class="icon-instagram2"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <div class="probootstrap-main-content">
+
+        <section class="for-you" style="margin-top: 70px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <form
+                            action="https://script.google.com/macros/s/AKfycbybbyoSpljvJkMdBc1vty1DhPYTZPheCH2OFv42eE1hFaHGbWnZ/exec">
+                            <div class="form-group">
+                                <label for="">Full Name: <span style="color:red;"> *</span></label>
+                                <input type="text" class="form-control" name="Name" id="name"
+                                    placeholder="Enter your full name" required>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Email address: <span style="color:red;"> *</span></label>
+                                        <input type="email" class="form-control" name="Email" id="email"
+                                            placeholder="eg. abc@xyz.com" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Contact: <span style="color:red;"> *</span></label>
+                                        <input type="number" class="form-control" name="Contact" id="ph"
+                                            placeholder="Only 10 digits of your mobile number" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">Date of Birth: <span style="color:red;"> *</span></label>
+                                        <input type="text" class="form-control" name="DateofBirth" id="dob"
+                                            placeholder="mm/dd/yyyy" value="01/31/1999" required>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <label for="">City: <span style="color:red;">
+                                                *</span></label>
+                                        <input type="text" class="form-control" name="City" id="ct"
+                                            placeholder="eg. Delhi" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <label for="">You are: <span style="color:red;">*</span></label>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="radio" onclick="javascript:yesnoCheck();" id="st" name="Status"
+                                        placeholder="" value="Student" required>
+                                    <label class="radio-dot" for="st">Student</label>
+                                </div>
+                            </div>
+                            <hr style="padding-bottom: 20px">
+                            <div id="stselect" class="st profile" style="display: none">
+                                <div class="row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="clg">College: <span style="color:red;">*</span></label>
+                                        <input type="text" class="form-control" name="College" id="clg"
+                                            placeholder="eg. IIT Delhi" required>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="cc">Course: <span style="color:red;">*</span></label>
+                                        <input type="text" class="form-control" name="Course" id="cc"
+                                            placeholder="eg. B.Tech" required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="br">Branch: <span style="color:red;">*</span></label>
+                                        <input type="text" class="form-control" name="Branch" id="br"
+                                            placeholder="eg. Computer Science" required>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="yr">Year: <span style="color:red;">*</span></label>
+                                        <input type="number" class="form-control" name="Year" id="yr"
+                                            placeholder="Number only... eg. 2" min="1" max="6" pattern="[1-6]{1}"
+                                            required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="ts">Technical Skills: <span style="color:red;">*</span></label>
+                                        <input type="text" class="form-control" name="TechSkills" id="ts"
+                                            placeholder="eg. Java, IOT, ML, etc." required>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="os">Other Skills/Hobbies: <span style="color:red;">*</span></label>
+                                        <input type="text" class="form-control" name="OtherSkills" id="os"
+                                            placeholder="eg. Content Writing, Designing, etc." required>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="ti">Linkedin Id: <span style="color:red;">*</span></label>
+                                        <input type="url" class="form-control" name="linkedin" id="ti"
+                                            placeholder="https://linkedin.com/" required>
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="hb">Position of Responsibilities
+                                            held:</label>
+                                        <input type="text" class="form-control" name="PORs" id="pr"
+                                            placeholder="eg. President at Tech Sociecty">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-sm-6">
+                                        <label for="we">Achievements (if any):</label>
+                                        <input type="text" class="form-control" name="Achievements" id="we"
+                                            placeholder="Mention your awards, internships etc.">
+                                    </div>
+                                    <div class="form-group col-sm-6">
+                                        <label for="pr">Projects:</label>
+                                        <input type="text" class="form-control" name="Projects" id="pr"
+                                            placeholder="eg. Smart Lighting System">
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-sm-12">
+                                    <label for="fw">Where did you hear about INCIND
+                                        Fellowship Program?</label>
+                                    <input type="text" class="form-control" name="Fellows" id="fw">
+                                </div>
+                            </div>
+                            <button class="btn btn-primary" type="submit" role="button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <div id="contactus" class="probootstrap-footer-spacer"></div>
+    <footer class="probootstrap-footer" id="contact">
+        <div class="probootstrap-footer-section">
+            <div class="container">
+                <div class="row mb80">
+                    <div class="col-md-3">
+                        <div class="probootstrap-footer-widget">
+                            <h3>About Us</h3>
+                            <p>INCIND Technology Fellowship is one of its kind, exclusive program for aspiring
+                                developers, coders, hackers, designers and innovators to develop their skills, and
+                                work/intern with senior technology leaders and industry experts.</p>
+                            <p><a href="http://incubateind.com" target="_blank"
+                                    class="btn btn-ghost btn-ghost-white btn-sm">Know More</a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="probootstrap-link-wrap probootstrap-footer-widget">
+                            <h3>Resources</h3>
+                            <ul>
+                                <!-- <li><a href="#mentor">Mentors</a></li> -->
+                                <!-- <li><a href="https://goo.gl/forms/LY3DkiMDghAcOc3M2" target="_blank">Apply for Fellowship</a></li> -->
+                                <!-- <li><a href="https://goo.gl/forms/LY3DkiMDghAcOc3M2" target="_blank">Be the Mentor</a></li> -->
+                                <li><a href="http://incubateind.com" target="_blank">IncubateIND</a></li>
+                                <li><a href="https://techxty.com" target="_blank">Techxty</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="probootstrap-footer-widget">
+                            <h3>Connect with us</h3>
+                            <ul class="probootstrap-footer-social">
+                                <li><a href="https://twitter.com/incubateind" target="_blank"><i
+                                            class="icon-twitter"></i></a></li>
+                                <li><a href="http://facebook.com/IncubateIND/" target="_blank"><i
+                                            class="icon-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/incubateind" target="_blank"><i
+                                            class="icon-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/incubateindia/" target="_blank"><i
+                                            class="icon-instagram2"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="probootstrap-footer-widget">
+                            <h3>Contact Us</h3>
+                            <br>
+                            <p>
+                                <b>Samkit Sharma</b><br> samkit@incubateind.com <br> +91-8882250750
+                            </p>
+                            <p>
+                                <b>Kaushik Roy</b><br> kaushik@incubateind.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="gototop js-top">
+        <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+    </div>
+
+
+    <!-- <script src="js/scripts.min.js"></script> -->
+    <script src="js/main.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+        $(function () {
+            $('input[name="Date of Birth"]').daterangepicker({
+                singleDatePicker: true,
+                showDropdowns: true,
+                minYear: 1950,
+                maxYear: 2010
+            });
+        });
+    </script>
+
+    <!-- <script type="text/javascript">
+        function yesnoCheck() {
+            if (document.getElementById('st').checked) {
+                document.getElementById('stselect').style.display = 'block';
+                document.getElementById('pfselect').style.display = 'none';
+            } else if (document.getElementById('pf').checked) {
+                document.getElementById('pfselect').style.display = 'block';
+                document.getElementById('stselect').style.display = 'none';
+            } else {
+                document.getElementById('stselect').style.display = 'none';
+                document.getElementById('pfselect').style.display = 'none';
+            }
+        }
+    </script> -->
+    <script type="text/javascript">
+        function yesnoCheck() {
+            if (document.getElementById('st').checked) {
+                document.getElementById('stselect').style.display = 'block';
+            } else {
+                document.getElementById('stselect').style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- https://script.google.com/macros/s/AKfycbybbyoSpljvJkMdBc1vty1DhPYTZPheCH2OFv42eE1hFaHGbWnZ/exec -->
