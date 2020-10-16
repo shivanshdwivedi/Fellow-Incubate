@@ -2354,6 +2354,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .team-page-section .team-block {
   margin-bottom: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .sec-title {
@@ -2366,7 +2368,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .sec-title .title {
   position: relative;
   font-size: 4.2rem;
-  color: #fff;
+  color: black;
   font-weight: 700;
   margin-bottom: 12px;
   text-transform: capitalize;
@@ -2492,6 +2494,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .team-block .inner-box {
   position: relative;
   padding: 40px 70px 28px 0px;
+  padding-right: 0px;
+  width: 350px;
 }
 
 .team-block .inner-box:before {
@@ -2560,6 +2564,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
           box-shadow: inset 0px 0px 35px rgba(0, 0, 0, 0.2);
 }
 
+.image {
+  width: 250px;
+}
+
 .team-block .inner-box .image img {
   position: relative;
   width: 100%;
@@ -2570,7 +2578,9 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   position: relative;
   text-align: left;
   z-index: 1;
-  padding: 30px 15px 0px 110px;
+  padding-top: 30px;
+  padding-left: 75px;
+  padding-right: 0px;
 }
 
 .team-block .inner-box .lower-content h3 {
@@ -2648,6 +2658,16 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   position: absolute;
   right: 85%;
   top: 50px;
+}
+
+.hideall {
+  visibility: hidden;
+}
+
+@media (max-width: 480px) {
+  .hideall {
+    display: none;
+  }
 }
 
 .upevent_img_image {
@@ -2770,7 +2790,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 @media (max-width: 480px) {
   .img-med {
-    width: 410px !important;
+    width: 400px !important;
+    height: 250px !important;
   }
   .mob {
     padding-bottom: 30px;
@@ -2785,7 +2806,6 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
     padding-top: 230px;
     padding-left: 30px;
     width: 330px;
-    margin-left: 85px !important;
   }
 }
 

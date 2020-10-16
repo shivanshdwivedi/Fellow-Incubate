@@ -2121,7 +2121,9 @@ a {
   }
   
   .team-page-section .team-block {
-    margin-bottom: 60px;
+	margin-bottom: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
   }
   
   
@@ -2136,7 +2138,7 @@ a {
   .sec-title .title {
     position: relative;
     font-size: 4.2rem;
-    color: #fff;
+    color: black;
     font-weight: 700;
     margin-bottom: 12px;
     text-transform: capitalize;
@@ -2147,6 +2149,8 @@ a {
     width: 40px;
     margin-top: 16px !important;
   }
+
+  
   
   .sec-title .separator:before {
     position: absolute;
@@ -2261,7 +2265,9 @@ a {
   
   .team-block .inner-box {
     position: relative;
-    padding: 40px 70px 28px 0px;
+	padding: 40px 70px 28px 0px;
+	padding-right: 0px;
+	width: 350px;
   }
   
   .team-block .inner-box:before {
@@ -2340,6 +2346,10 @@ a {
     background-color: #ffffff;
     box-shadow: inset 0px 0px 35px rgba(0, 0, 0, 0.20);
   }
+
+  .image{
+	  width: 250px;
+  }
   
   .team-block .inner-box .image img {
     position: relative;
@@ -2351,7 +2361,9 @@ a {
     position: relative;
     text-align: left;
     z-index: 1;
-    padding: 30px 15px 0px 110px;
+	padding-top: 30px;
+	padding-left: 75px;
+	padding-right: 0px;
   }
   
   .team-block .inner-box .lower-content h3 {
@@ -2431,6 +2443,16 @@ a {
 	top: 50px;
   }
   
+  .hideall{
+	  visibility: hidden;
+  }
+
+  @media(max-width:480px)
+  {
+	  .hideall{
+		  display: none;
+	  }
+  }
   .upevent_img_image {
 	float: right;
 	border-radius: 5px;
@@ -2459,6 +2481,7 @@ a {
 	font-weight: 400;
 	font-size: 32px;
   }
+  
   
   
   
@@ -2557,7 +2580,8 @@ a {
   
   @media(max-width:480px){
 	.img-med{
-	  width: 410px !important;
+	  width: 400px !important;
+	  height: 250px !important;
 	}
 	.mob{
 	  padding-bottom: 30px;
@@ -2572,7 +2596,6 @@ a {
 	  padding-top: 230px;
 	  padding-left: 30px;
 	  width: 330px;
-	  margin-left: 85px !important;
 	}
   }
   
