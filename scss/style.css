@@ -886,7 +886,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-half .text {
   padding: 100px;
-  background: #161C2E;
+  background: #ffffff;
 }
 
 @media screen and (max-width: 1000px) {
@@ -903,7 +903,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .probootstrap-half .text h2, .probootstrap-half .text h3, .probootstrap-half .text h4, .probootstrap-half .text h5 {
-  color: #ffffff;
+  color: black;
 }
 
 .probootstrap-half .text h3 {
@@ -923,7 +923,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-half .text p {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
   line-height: 1.5;
 }
 
@@ -1174,6 +1174,25 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Rubik", sans-serif;
+  color: #9e44f8;
+  border-bottom-width: 2px;
+  border-bottom-color: #8d84a0;
+  border-bottom-style: dashed;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 480px) {
+  .sec-reverse {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .sec-reverse-stud {
+    width: 60% !important;
+  }
 }
 
 .lead {
@@ -2368,10 +2387,18 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 .sec-title .title {
   position: relative;
   font-size: 4.2rem;
-  color: black;
   font-weight: 700;
   margin-bottom: 12px;
   text-transform: capitalize;
+  font-size: 2.074em;
+  font-family: "Rubik", sans-serif;
+  color: #9e44f8;
+  border-bottom-width: 2px;
+  border-bottom-color: #8d84a0;
+  border-bottom-style: dashed;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sec-title .separator {
@@ -2467,6 +2494,20 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   bottom: 0px;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.sec-title-college {
+  position: relative;
+  font-size: 4.2rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+  font-size: 2.074em;
+  font-family: "Rubik", sans-serif;
+  color: #9e44f8;
+  border-bottom-width: 2px;
+  border-bottom-color: #8d84a0;
+  border-bottom-style: dashed;
 }
 
 .team-section .title-box {
@@ -2625,10 +2666,23 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .upevent_head {
-  font-weight: 400;
   margin-bottom: 20px;
-  font-size: 45px;
   letter-spacing: 2px;
+  color: #9e44f8;
+  border-bottom-width: 2px;
+  border-bottom-color: #8d84a0;
+  border-bottom-style: dashed;
+  font-size: 2.074em;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+}
+
+@media (max-width: 480px) {
+  .upevent_head {
+    width: 75%;
+    position: relative;
+  }
 }
 
 .upevent_img {
@@ -2735,6 +2789,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   border-bottom-width: 2px;
   border-bottom-color: #8d84a0;
   border-bottom-style: dashed;
+  color: #9e44f8;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
 }
 
 .carousel_text p {

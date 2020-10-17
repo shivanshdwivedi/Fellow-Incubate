@@ -751,7 +751,7 @@ a {
 	}
 	.text {
 		padding: 100px;
-		background: $brand-darker;
+		background: $brand-white;
 		@media screen and (max-width: 1000px) {
 			width: 100%;
 			padding: 30px 15px;
@@ -762,7 +762,7 @@ a {
 			text-transform: uppercase;
 		}
 		h2, h3, h4, h5 {
-			color: $brand-white;
+			color: $brand-black;
 		}
 		h3 {
 			line-height: 30px;
@@ -777,7 +777,7 @@ a {
 		}
 		p {
 			font-size: 18px;
-			color: rgba(255,255,255,.5);
+			color: $brand-black;
 			line-height: 1.5;
 		}
 	}
@@ -984,6 +984,25 @@ a {
 		font-weight: 700;
 		text-transform: uppercase;
 		font-family: $font-primary;
+		color: #9e44f8;
+		border-bottom-width: 2px;
+		border-bottom-color: #8d84a0;
+		border-bottom-style: dashed;
+		width: 55%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media(max-width: 480px){
+	.sec-reverse{
+		width: 50% !important;
+	}
+}
+
+@media(max-width: 480px){
+	.sec-reverse-stud{
+		width: 60% !important;
 	}
 }
 
@@ -2138,10 +2157,18 @@ a {
   .sec-title .title {
     position: relative;
     font-size: 4.2rem;
-    color: black;
     font-weight: 700;
     margin-bottom: 12px;
-    text-transform: capitalize;
+	text-transform: capitalize;
+	font-size: 2.074em;
+	font-family: $font-primary;
+	color: #9e44f8;
+	border-bottom-width: 2px;
+	border-bottom-color: #8d84a0;
+	border-bottom-style: dashed;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
   }
   
   .sec-title .separator {
@@ -2239,6 +2266,23 @@ a {
     bottom: 0px;
     background-position: center center;
     background-repeat: no-repeat;
+  }
+
+  .sec-title-college{
+	position: relative;
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+	text-transform: capitalize;
+	font-size: 2.074em;
+	font-family: $font-primary;
+	color: #9e44f8;
+	border-bottom-width: 2px;
+	border-bottom-color: #8d84a0;
+	border-bottom-style: dashed;
+	// width: 30%;
+	// margin-left: auto;
+	// margin-right: auto;
   }
   
   .team-section .title-box {
@@ -2417,10 +2461,33 @@ a {
   // Student Section
   
 .upevent_head {
-	font-weight: 400;
 	margin-bottom: 20px;
-	font-size: 45px;
 	letter-spacing: 2px;
+	color: #9e44f8;
+	border-bottom-width: 2px;
+	border-bottom-color: #8d84a0;
+	border-bottom-style: dashed;
+	font-size: 2.074em;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: $font-primary;
+		// color: #9e44f8;
+		// border-bottom-width: 2px;
+		// border-bottom-color: #8d84a0;
+		// border-bottom-style: dashed;
+		// width: 40%;
+		// margin-left: auto;
+		// margin-right: auto;
+
+  }
+
+  @media(max-width: 480px){
+	  .upevent_head{
+		//   margin-left: auto !important;
+		//   margin-right: auto !important;
+		  width: 75%;
+		  position: relative;
+	  }
   }
   
   .upevent_img {
@@ -2523,6 +2590,17 @@ a {
 	border-bottom-width: 2px;
 	border-bottom-color: #8d84a0;
 	border-bottom-style: dashed;
+	color: #9e44f8;
+	font-weight: 500;
+	text-transform: uppercase;
+	font-family: $font-primary;
+		// color: #9e44f8;
+		// border-bottom-width: 2px;
+		// border-bottom-color: #8d84a0;
+		// border-bottom-style: dashed;
+		// width: 40%;
+		// margin-left: auto;
+		// margin-right: auto;
   }
   
   
