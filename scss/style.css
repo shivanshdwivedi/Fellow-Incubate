@@ -62,7 +62,7 @@ h1 {
 }
 
 strong {
-  color: darkcyan !important;
+  color: #1F0D31 !important;
 }
 
 h2 {
@@ -598,6 +598,10 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   right: 20px;
 }
 
+hr {
+  border-top: 2px solid #3f1b63;
+}
+
 .btn {
   border: none;
   border-radius: 100px;
@@ -992,7 +996,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .probootstrap-footer-section {
   padding: 5em 0;
-  background: #e3edf7;
+  background: #F5ECFE;
 }
 
 .probootstrap-footer-section ul {
@@ -1175,9 +1179,6 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   text-transform: uppercase;
   font-family: "Rubik", sans-serif;
   color: #9e44f8;
-  border-bottom-width: 2px;
-  border-bottom-color: #8d84a0;
-  border-bottom-style: dashed;
   width: 55%;
   margin-left: auto;
   margin-right: auto;
@@ -1671,7 +1672,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 }
 
 .flexslider .probootstrap-heading {
-  color: darkcyan;
+  color: #1F0D31;
   font-weight: 400;
   font-size: 62px;
   line-height: 60px;
@@ -2366,9 +2367,61 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   background: rgba(0, 0, 0, 0.9);
 }
 
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#about span {
+  color: #9e44f8;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#about h2 {
+  font-size: 32px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+#about h2 span {
+  color: #9e44f8;
+  font-weight: 600;
+}
+
+#about p {
+  letter-spacing: 0.4px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 40px;
+  color: #000;
+}
+
+#about .card {
+  height: 100%;
+}
+
+#about .card .card-body {
+  text-align: center;
+}
+
+#about .card .card-body .service-item {
+  position: relative;
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+#about .card .card-body h3, #about .card .card-body h4, #about .card .card-body h5 {
+  color: #9e44f8;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 .team-page-section {
   position: relative;
-  padding-top: 70px;
+  padding-top: 20px;
 }
 
 .team-page-section .team-block {
@@ -2401,33 +2454,35 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   margin-right: auto;
 }
 
-.sec-title .separator {
+.separator {
   position: relative;
   width: 40px;
   margin-top: 16px !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.sec-title .separator:before {
+.separator:before {
   position: absolute;
   content: '';
   left: 0px;
   top: 0px;
   width: 10px;
   height: 2px;
-  background-color: #ff9600;
+  background-color: #A756F8;
 }
 
-.sec-title .separator:after {
+.separator:after {
   position: absolute;
   content: '';
   right: 0px;
   top: 0px;
   width: 10px;
   height: 2px;
-  background-color: #ff9600;
+  background-color: #A756F8;
 }
 
-.sec-title .separator span {
+.separator span {
   position: absolute;
   left: 50%;
   top: -2px;
@@ -2435,7 +2490,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   height: 5px;
   margin-left: -5px;
   display: inline-block;
-  background-color: #bd0000;
+  background-color: #2F144A;
 }
 
 .sec-title h2 {
@@ -2562,8 +2617,8 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   border-radius: 10px;
   -webkit-transition: all 600ms ease;
   transition: all 600ms ease;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffca08), to(#f70067));
-  background-image: linear-gradient(to bottom, #ffca08 0%, #f70067 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#F5ECFE), to(#7E36C6));
+  background-image: linear-gradient(to bottom, #F5ECFE 0%, #7E36C6 100%);
 }
 
 .team-block .inner-box:hover::after {
@@ -2584,7 +2639,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .team-block .inner-box .social-icons li a {
   position: relative;
-  color: #e40000;
+  color: black;
   font-size: 1.5rem;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -2626,7 +2681,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .team-block .inner-box .lower-content h3 {
   position: relative;
-  color: #bd0000;
+  color: #1F0D31;
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 1.3em;
@@ -2634,7 +2689,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 .team-block .inner-box .lower-content h3 a {
   position: relative;
-  color: #bd0000;
+  color: #1F0D31;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -2669,9 +2724,6 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   margin-bottom: 20px;
   letter-spacing: 2px;
   color: #9e44f8;
-  border-bottom-width: 2px;
-  border-bottom-color: #8d84a0;
-  border-bottom-style: dashed;
   font-size: 2.074em;
   font-weight: 700;
   text-transform: uppercase;
@@ -2680,7 +2732,7 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
 
 @media (max-width: 480px) {
   .upevent_head {
-    width: 75%;
+    width: 70%;
     position: relative;
   }
 }

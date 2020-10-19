@@ -48,7 +48,7 @@ h1 {
 }
 
 strong {
-	color: darkcyan !important;
+	color: $brand-shadedark	!important;
 }
 
 h2 {
@@ -520,6 +520,10 @@ a {
   right: 20px;
 }
 
+hr{
+	border-top: 2px solid #3f1b63;
+}
+
 // btn
 .btn {
 	border: none;
@@ -838,7 +842,7 @@ a {
 }
 .probootstrap-footer-section {
 	padding: 5em 0;
-	background: $brand-dark;
+	background: #F5ECFE;
 	ul {
 		list-style: none;
 		padding: 0;
@@ -984,10 +988,11 @@ a {
 		font-weight: 700;
 		text-transform: uppercase;
 		font-family: $font-primary;
-		color: #9e44f8;
-		border-bottom-width: 2px;
-		border-bottom-color: #8d84a0;
-		border-bottom-style: dashed;
+		color: $brand-primary;
+		// border-bottom-width: 2px;
+		// border-bottom-color: #8d84a0;
+		// border-bottom-style: dashed;
+
 		width: 55%;
 		margin-left: auto;
 		margin-right: auto;
@@ -1511,7 +1516,7 @@ a {
 }
 
   .probootstrap-heading {
-  	color: darkcyan;
+  	color: $brand-shadedark;
   	font-weight: 400;
   	font-size: 62px;
   	line-height: 60px;
@@ -2131,12 +2136,66 @@ a {
 	}	
 }
 
+#about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
+	span {
+		color: $brand-primary;
+		font-weight: 600;
+		font-size: 2rem;
+	}
+
+    h2 {
+        font-size: 32px;
+        font-weight: 300;
+        margin-bottom: 15px;
+
+        span {
+            color: $brand-primary;
+			font-weight: 600;
+        }
+    }
+
+    p {
+        letter-spacing: 0.4px;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+		margin-bottom: 40px;
+		color: #000;
+    }
+}
+
+#about{
+	.card {
+        height: 100%;
+
+        .card-body {
+			text-align: center;
+			.service-item {
+				position: relative;
+				width: 100%;
+				float: left;
+				margin-bottom: 30px;
+				
+			}
+
+            h3,h4,h5 {
+                color: $brand-primary;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+			}
+        }
+    }
+}
+
 
 
 
 .team-page-section {
     position: relative;
-    padding-top: 70px;
+    padding-top: 20px;
   }
   
   .team-page-section .team-block {
@@ -2162,7 +2221,7 @@ a {
 	text-transform: capitalize;
 	font-size: 2.074em;
 	font-family: $font-primary;
-	color: #9e44f8;
+	color: $brand-primary;
 	border-bottom-width: 2px;
 	border-bottom-color: #8d84a0;
 	border-bottom-style: dashed;
@@ -2171,35 +2230,37 @@ a {
 	margin-right: auto;
   }
   
-  .sec-title .separator {
+  .separator {
     position: relative;
     width: 40px;
-    margin-top: 16px !important;
+	margin-top: 16px !important;
+	margin-left: auto;
+	margin-right: auto;
   }
 
   
   
-  .sec-title .separator:before {
+  .separator:before {
     position: absolute;
     content: '';
     left: 0px;
     top: 0px;
     width: 10px;
     height: 2px;
-    background-color: #ff9600;
+    background-color: #A756F8;
   }
   
-  .sec-title .separator:after {
+   .separator:after {
     position: absolute;
     content: '';
     right: 0px;
     top: 0px;
     width: 10px;
     height: 2px;
-    background-color: #ff9600;
+    background-color: #A756F8;
   }
   
-  .sec-title .separator span {
+   .separator span {
     position: absolute;
     left: 50%;
     top: -2px;
@@ -2207,7 +2268,7 @@ a {
     height: 5px;
     margin-left: -5px;
     display: inline-block;
-    background-color: #bd0000;
+    background-color: #2F144A;
   }
   
   .sec-title h2 {
@@ -2276,7 +2337,7 @@ a {
 	text-transform: capitalize;
 	font-size: 2.074em;
 	font-family: $font-primary;
-	color: #9e44f8;
+	color: $brand-primary;
 	border-bottom-width: 2px;
 	border-bottom-color: #8d84a0;
 	border-bottom-style: dashed;
@@ -2346,9 +2407,9 @@ a {
     background-image: -ms-linear-gradient(top, #ffca08 0%, #f70067 100%);
     background-image: -moz-linear-gradient(top, #ffca08 0%, #f70067 100%);
     background-image: -o-linear-gradient(top, #ffca08 0%, #f70067 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffca08), color-stop(100, #f70067));
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #F5ECFE), color-stop(100, #7E36C6));
     background-image: -webkit-linear-gradient(top, #ffca08 0%, #f70067 100%);
-    background-image: linear-gradient(to bottom, #ffca08 0%, #f70067 100%);
+    background-image: linear-gradient(to bottom, #F5ECFE 0%, #7E36C6 100%);
   }
   
   .team-block .inner-box:hover::after {
@@ -2369,7 +2430,7 @@ a {
   
   .team-block .inner-box .social-icons li a {
     position: relative;
-    color: #e40000;
+    color: $brand-black;
     font-size: 1.5rem;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -2412,7 +2473,7 @@ a {
   
   .team-block .inner-box .lower-content h3 {
     position: relative;
-    color: #bd0000;
+    color: $brand-shadedark;
     font-size: 1.8rem;
     font-weight: 700;
     line-height: 1.3em;
@@ -2420,7 +2481,7 @@ a {
   
   .team-block .inner-box .lower-content h3 a {
     position: relative;
-    color: #bd0000;
+    color: $brand-shadedark;
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     -o-transition: all 0.4s;
@@ -2463,10 +2524,10 @@ a {
 .upevent_head {
 	margin-bottom: 20px;
 	letter-spacing: 2px;
-	color: #9e44f8;
-	border-bottom-width: 2px;
-	border-bottom-color: #8d84a0;
-	border-bottom-style: dashed;
+	color: $brand-primary;
+	// border-bottom-width: 2px;
+	// border-bottom-color: #8d84a0;
+	// border-bottom-style: dashed;
 	font-size: 2.074em;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -2485,7 +2546,7 @@ a {
 	  .upevent_head{
 		//   margin-left: auto !important;
 		//   margin-right: auto !important;
-		  width: 75%;
+		  width: 70%;
 		  position: relative;
 	  }
   }
@@ -2590,7 +2651,7 @@ a {
 	border-bottom-width: 2px;
 	border-bottom-color: #8d84a0;
 	border-bottom-style: dashed;
-	color: #9e44f8;
+	color: $brand-primary;
 	font-weight: 500;
 	text-transform: uppercase;
 	font-family: $font-primary;
