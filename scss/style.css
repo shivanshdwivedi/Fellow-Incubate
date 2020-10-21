@@ -526,6 +526,63 @@ a.hover-reverse:hover, a.hover-reverse:focus, a.hover-reverse:active {
   margin-left: 20px;
 }
 
+.sec-reverses {
+  font-size: 2.074em;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+  color: #9e44f8;
+}
+
+#benefits .list-group {
+  -webkit-box-shadow: #374252;
+          box-shadow: #374252;
+}
+
+#benefits .list-group .list-group-item {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0;
+  padding-bottom: 1.25rem;
+  border: 0;
+}
+
+#benefits .list-group .list-group-item h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#benefits .list-group .list-group-item h4 .fa-clock {
+  color: #e3edf7;
+  padding-right: 15px;
+  font-size: 26px;
+  vertical-align: middle;
+}
+
+#benefits .list-group .list-group-item .divider {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4) !important;
+  height: 1px;
+  margin-top: 30px;
+}
+
+#benefits .list-group .list-group-item.active {
+  background-color: #9e44f8;
+  border-color: #9e44f8;
+  padding: 1.25rem 2rem;
+}
+
+#benefits .list-group .list-group-item.active h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+#benefits .list-group .list-group-item.active h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
 .probootstrap-burger-menu {
   display: inline-block;
   width: 18px;
@@ -1671,10 +1728,16 @@ hr {
   }
 }
 
+@media (min-width: 960px) {
+  .flexslider .mar-le {
+    margin-left: 32px;
+  }
+}
+
 .flexslider .probootstrap-heading {
-  color: #1F0D31;
-  font-weight: 400;
-  font-size: 62px;
+  color: #9e44f8;
+  font-weight: 500;
+  font-size: 48px;
   line-height: 60px;
   font-family: "Rubik", sans-serif;
   text-transform: uppercase;
@@ -1682,7 +1745,8 @@ hr {
 
 @media screen and (max-width: 768px) {
   .flexslider .probootstrap-heading {
-    font-size: 50px;
+    font-size: 35px;
+    line-height: 30px;
   }
 }
 
@@ -1719,12 +1783,12 @@ hr {
 }
 
 .flexslider .probootstrap-slider-text {
-  margin-top: 300px;
+  margin-top: 230px;
 }
 
 @media screen and (max-width: 480px) {
   .flexslider .probootstrap-slider-text {
-    margin-top: 100px;
+    margin-top: 80px;
   }
 }
 
@@ -1758,7 +1822,7 @@ hr {
   bottom: 0;
   background: url("../img/Fellow.png") !important;
   background-size: cover !important;
-  opacity: 0.4;
+  opacity: 0.7;
   z-index: -1;
 }
 
