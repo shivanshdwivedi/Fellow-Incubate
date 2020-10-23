@@ -1572,7 +1572,9 @@ hr{
 
   @media(max-width: 450px){
 	.probootstrap-heading{
-		font-size: 55px;
+		font-size: 50px !important;
+		font-family: $font-third !important;
+		line-height: 40px !important;
 	}
 }
 
@@ -1585,10 +1587,10 @@ hr{
 
   .probootstrap-heading {
   	color: $brand-primary;
-  	font-weight: 500;
-  	font-size: 48px;
-  	line-height: 60px;
-  	font-family: $font-primary;
+  	font-weight: 600;
+  	font-size: 65px;
+  	line-height: 50px;
+  	font-family: $font-third;
 	text-transform: uppercase;
 
 	@media screen and (max-width: $screen-sm){

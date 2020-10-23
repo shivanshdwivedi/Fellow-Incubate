@@ -1724,7 +1724,9 @@ hr {
 
 @media (max-width: 450px) {
   .flexslider .probootstrap-heading {
-    font-size: 55px;
+    font-size: 50px !important;
+    font-family: "Inconsolata", monospace !important;
+    line-height: 40px !important;
   }
 }
 
@@ -1736,10 +1738,10 @@ hr {
 
 .flexslider .probootstrap-heading {
   color: #9e44f8;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 60px;
-  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 50px;
+  font-family: "Inconsolata", monospace;
   text-transform: uppercase;
 }
 
